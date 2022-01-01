@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "qno": 1,
+        "title": "Linked List Loop",
+        "ques": "Given the head node of the Linked List. Find whether the given Linked List contains Loop in it.\n\n"
+            "Loop in the linked list, defines the same nodes will be visited again and again while iterating via the next nodes",
+        "level": "e",
+        "ex": [
+          "9->4->1->6\n"
+              "    ^_____|\n"
+              "\n\nAns: True",
+          "3->2->-4->null"
+              "\n\nAns: False"
+        ],
+        "cons": "",
+        "hint": "",
+        "followup": "Try solving it in O(1) space",
+        "tags": ["mi", "most_imp"],
+        "comp": [],
+        "techTags": ["ll", "2p", " Google ", " yahoo "],
+        "ans": ""
+      },
+      {
+        "qno": 2,
+        "title": "Linked List Loop II",
+        "ques": "sds",
+        "level": "h",
+        "ex": ['ss'],
+        "cons": "",
+        "hint": "",
+        "followup": "",
+        "tags": ["most_imp"],
+        "techTags": ["ll"],
+        "ans": ""
+      },
+      {
+        "qno": 3,
+        "title": "Remove duplicates from Sorted List",
+        "ques": "sds",
+        "level": "m",
+        "ex": ['ss'],
+        "cons": "",
+        "hint": "",
+        "followup": "",
+        "tags": ["most_imp", "quick_prep"],
+        "techTags": ["ll"],
+        "ans": ""
+      },
+      {
+        "qno": 4,
+        "title": "Remove duplicates from Sorted List II",
+        "ques": "sds",
+        "level": "m",
+        "ex": ['ss'],
+        "cons": "",
+        "hint": "",
+        "followup": "",
+        "tags": ["most_imp", "good2Know"],
+        "techTags": ["ll"],
+        "ans": ""
+      },
+      {
+        "qno": 5,
+        "title": "Add 2 Numbers",
+        "ques": "sds",
+        "level": "m",
+        "ex": ['ss'],
+        "cons": "",
+        "hint": "",
+        "followup": "",
+        "tags": ["most_imp", "most_ask"],
+        "techTags": ["ll"],
+        "ans": ""
+      }
+    ]
+  }
