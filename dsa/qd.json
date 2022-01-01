@@ -32,7 +32,7 @@
       },
       {
         "qno": 3,
-        "title": "Remove duplicates from Sorted List",
+        "title": "Remove the duplicates from Sorted List",
         "ques": "sds",
         "level": "m",
         "ex": ["d"],
