@@ -3,15 +3,11 @@
       {
         "qno": 1,
         "title": "Linked List Loop",
-        "ques": "Given the head node of the Linked List. Find whether the given Linked List contains Loop in it.\n\n"
-            "Loop in the linked list, defines the same nodes will be visited again and again while iterating via the next nodes",
+        "ques": "Given the head node of the Linked List. Find whether the given Linked List contains Loop in it.\n\nLoop in the linked list, defines the same nodes will be visited again and again while iterating via the next nodes",
         "level": "e",
         "ex": [
-          "9->4->1->6\n"
-              "    ^_____|\n"
-              "\n\nAns: True",
-          "3->2->-4->null"
-              "\n\nAns: False"
+          "9->4->1->6\n    ^_____|\n\n\nAns: True",
+          "3->2->-4->null\n\nAns: False"
         ],
         "cons": "",
         "hint": "",
@@ -26,7 +22,7 @@
         "title": "Linked List Loop II",
         "ques": "sds",
         "level": "h",
-        "ex": ['ss'],
+        "ex": ["s"],
         "cons": "",
         "hint": "",
         "followup": "",
@@ -39,7 +35,7 @@
         "title": "Remove duplicates from Sorted List",
         "ques": "sds",
         "level": "m",
-        "ex": ['ss'],
+        "ex": ["d"],
         "cons": "",
         "hint": "",
         "followup": "",
@@ -52,7 +48,7 @@
         "title": "Remove duplicates from Sorted List II",
         "ques": "sds",
         "level": "m",
-        "ex": ['ss'],
+        "ex": ["d"],
         "cons": "",
         "hint": "",
         "followup": "",
@@ -65,7 +61,7 @@
         "title": "Add 2 Numbers",
         "ques": "sds",
         "level": "m",
-        "ex": ['ss'],
+        "ex": ["d"],
         "cons": "",
         "hint": "",
         "followup": "",
