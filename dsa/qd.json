@@ -1,73 +1,239 @@
 {
-    "data": [
-      {
-        "qno": 1,
-        "title": "Linked List Loop",
-        "ques": "Given the head node of the Linked List. Find whether the given Linked List contains Loop in it.\n\nLoop in the linked list, defines the same nodes will be visited again and again while iterating via the next nodes",
-        "level": "e",
-        "ex": [
-          "9->4->1->6\n    ^_____|\n\n\nAns: True",
-          "3->2->-4->null\n\nAns: False"
-        ],
-        "cons": "",
-        "hint": "",
-        "followup": "Try solving it in O(1) space",
-        "tags": ["mi", "most_imp"],
-        "comp": [],
-        "techTags": ["ll", "2p", " Google ", " yahoo "],
-        "ans": ""
-      },
-      {
-        "qno": 2,
-        "title": "Linked List Loop II",
-        "ques": "sds",
-        "level": "h",
-        "ex": ["s"],
-        "cons": "",
-        "hint": "",
-        "followup": "",
-        "tags": ["most_imp"],
-        "techTags": ["ll"],
-        "ans": ""
-      },
-      {
-        "qno": 3,
-        "title": "Remove duplicates from Sorted List",
-        "ques": "sds",
-        "level": "m",
-        "ex": ["d"],
-        "cons": "",
-        "hint": "",
-        "followup": "",
-        "tags": ["most_imp", "quick_prep"],
-        "techTags": ["ll"],
-        "ans": ""
-      },
-      {
-        "qno": 4,
-        "title": "Remove duplicates from Sorted List II",
-        "ques": "sds",
-        "level": "m",
-        "ex": ["d"],
-        "cons": "",
-        "hint": "",
-        "followup": "",
-        "tags": ["most_imp", "good2Know"],
-        "techTags": ["ll"],
-        "ans": ""
-      },
-      {
-        "qno": 5,
-        "title": "Add 2 Numbers",
-        "ques": "sds",
-        "level": "m",
-        "ex": ["d"],
-        "cons": "",
-        "hint": "",
-        "followup": "",
-        "tags": ["most_imp", "most_ask"],
-        "techTags": ["ll"],
-        "ans": ""
-      }
-    ]
-  }
+      "data": [
+        {
+          "qno": 1,
+          "title": "Set Matrix Zero",
+          "ques":
+              "Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.",
+          "level": "m",
+          "ex": [
+            '''Examples 1:
+
+Input: 
+matrix=[[1,1,1],[1,0,1],[1,1,1]]
+
+Output: 
+[[1,0,1],[0,0,0],[1,0,1]]
+
+Explanation: 
+Since matrix[2][2]=0.Therfore the 2nd column and 2nd row wil be set to 0.
+ 
+Input: 
+matrix=[[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+
+Output:
+[[0,0,0,0],[0,4,5,0],[0,3,1,0]]
+
+Explanation:
+Since matrix[0][0]=0 and matrix[0][3]=0. Therefore 1st row, 1st column and 4th column will be set to 0'''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": ["quick_prep", "google", "amazon"],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'M65xBewcqcI',
+              'urlname': 'Sukanya Bharati - Medium',
+              'url':
+                  'https://medium.com/nerd-for-tech/set-matrix-zeroes-edeeb0fb8e24'
+            },
+          ]
+        },
+        {
+          "qno": 2,
+          "title": "Pascal’s Triangle",
+          "ques":
+              '''Given an integer N, return the first N rows of Pascal’s triangle.
+
+In Pascal’s triangle, each number is the sum of the two numbers''',
+          "level": "e",
+          "ex": [
+            '''Input Format: N = 5
+
+Result:
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1''',
+            '''Input Format: N = 1
+
+Result: 
+    1'''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": ["quick_prep", "most_imp", "google"],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'M65xBewcqcI',
+              'urlname': 'Sukanya Bharati - Medium',
+              'url':
+                  'https://medium.com/nerd-for-tech/set-matrix-zeroes-edeeb0fb8e24'
+            },
+          ]
+        },
+        {
+          "qno": 3,
+          "title": "Next Permutation",
+          "ques":
+              '''Given an array Arr[] of integers, rearrange the numbers of the given array into the lexicographically next greater permutation of numbers.
+
+If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).''',
+          "level": "m",
+          "ex": [
+            '''Input format: Arr[] = {1,3,2}
+
+Output: Arr[] = {2,1,3}
+
+Explanation: All permutations of {1,2,3} are {{1,2,3} , {1,3,2}, {2,13} , {2,3,1} , {3,1,2} , {3,2,1}}. So, the next permutation just after {1,3,2} is {2,1,3}.''',
+            '''Input format: Arr[] = {3,2,1}
+
+Output: Arr[] = {1,2,3}
+
+Explanation: As we see all permutations of {1,2,3}, we find {3,2,1} at the last position. So, we have to return the topmost permutation.
+'''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": ["quick_prep", "most_imp", "Adobe", "Goldman Sachs"],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'LuLCLgMElus',
+              'urlname': 'GFG',
+              'url': 'https://www.geeksforgeeks.org/next-permutation/'
+            },
+          ]
+        },
+        {
+          "qno": 4,
+          "title": "Kadane’s Algorithm",
+          "ques":
+              '''Given an integer array arr, find the contiguous subarray (containing at least one number) which
+has the largest sum and return its sum and print the subarray.''',
+          "level": "h",
+          "ex": [
+            '''Example 1:
+
+Input: arr = [-2,1,-3,4,-1,2,1,-5,4] 
+
+Output: 6 
+
+Explanation: [4,-1,2,1] has the largest sum = 6. 
+
+''',
+            '''Examples 2: 
+
+Input: arr = [1] 
+
+Output: 1 
+
+Explanation: Array has only one element and which is giving positive sum of 1. '''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": [
+            "quick_prep",
+            "most_imp",
+            "Microsoft",
+            "fb",
+            "Goldman Sachs"
+          ],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'w_KEocd__20',
+              'urlname': 'GFG',
+              'url':
+                  'https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/'
+            },
+          ]
+        },
+        {
+          "qno": 5,
+          "title": "Sort an array of 0s, 1s and 2s",
+          "ques":
+              '''Given an array consisting of only 0s, 1s and 2s. Write a program to in-place sort the array without using inbuilt sort functions. ( Expected: Single pass-O(N) and constant space)''',
+          "level": "e",
+          "ex": [
+            '''Input: nums = [2,0,2,1,1,0]
+Output: [0,0,1,1,2,2]
+
+Input: nums = [2,0,1]
+Output: [0,1,2]
+
+Input: nums = [0]
+Input: nums = [0]'''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": ["quick_prep", "most_imp", "amazon", "fb"],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'oaVa-9wmpns',
+              'urlname': 'GFG',
+              'url':
+                  'https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/'
+            },
+          ]
+        },
+        {
+          "qno": 6,
+          "title": "Stock Buy And Sell",
+          "ques":
+              '''You are given an array of prices where prices[i] is the price of a given stock on an ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.''',
+          "level": "m",
+          "ex": [
+            '''Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and 
+sell on day 5 (price = 6), profit = 6-1 = 5.
+
+Note: That buying on day 2 and selling on day 1 
+is not allowed because you must buy before 
+you sell.''',
+            '''Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and 
+sell on day 5 (price = 6), profit = 6-1 = 5.
+
+Note: That buying on day 2 and selling on day 1 
+is not allowed because you must buy before 
+you sell.'''
+          ],
+          "cons": "",
+          "hint": "",
+          "followup": "",
+          "tags": ["quick_prep", "most_imp", "Intuit"],
+          "techTags": ["Array"],
+          "ans": [
+            {
+              'src': 'take U forward',
+              'id': 'eMSfBgbiEjk',
+              'urlname': 'GFG',
+              'url': 'https://www.geeksforgeeks.org/stock-buy-sell/'
+            },
+          ]
+        },
+      ]
+    };
